@@ -29,7 +29,7 @@
             </span>
           </div>
 
-          <nav class="col-sm-8">
+          <nav class="col-sm-8 hidden-xs">
             <ul>
               <li><a href="<?php echo bloginfo('url'); ?>/#section-intro">about</a></li>
               <li><a href="<?php echo bloginfo('url'); ?>/#section-portfolio">portfolio</a></li>
