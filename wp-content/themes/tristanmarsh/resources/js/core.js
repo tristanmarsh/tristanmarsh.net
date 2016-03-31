@@ -1,6 +1,6 @@
 jQuery(document).ready(function() {
 
-  function slider() {
+  function Slider() {
     
     //init slider
     var slides = jQuery('.slider .slides');
@@ -54,9 +54,20 @@ jQuery(document).ready(function() {
       clearTimeout(tid);
       play();
     };
+
+    var convertToRGBA = function(color) {
+      var color = '#abcdef';
+      var rgbaColor = 'rgba(' + parseInt(color.slice(-6,-4),16) +
+        ',' + parseInt(color.slice(-4,-2),16) +
+        ',' + parseInt(color.slice(-2),16) +
+        ',0.5)';
+      return rgbaColor;
+      window.console.log(rgbaColor);
+    };
     
     var animateSlide = function() {
       var color = jQuery(jQuery('.slide')[current-1]).attr('background-color');
+      var color = convertToRGBA(color);
       setTimeout(function() {
         jQuery('.slider').css('background',color);
       }, 0);
@@ -95,14 +106,15 @@ jQuery(document).ready(function() {
   });
     
     //Run
+    goTo(1);
     play();
     jQuery(jQuery(slides).children()[current-1]).addClass('active');
     
   }
 
-  function stickyNav() {
+  function StickyNav() {
     
-    var head = jQuery('div.head');
+    var head = jQuery('header.head');
     
     jQuery(window).scroll(function() {
       if (jQuery(this).scrollTop() > 1) { // this refers to window
@@ -110,43 +122,45 @@ jQuery(document).ready(function() {
       } else if (jQuery(this).scrollTop() < 1) {
         jQuery(head).removeClass('scrolled');
       }
-    })
-    
-  }
-
-  function modalSubmit() {
-    var modalContactForm = jQuery('.modal form')
-    var originalSubmitButton = jQuery('.modal input.wpcf7-submit');
-    originalSubmitButton.hide();
-    var newSubmitButton = jQuery('.modal .modal-footer button.btn-primary');
-
-    newSubmitButton.click(function(event) {
-      event.stopPropagation();
-      modalContactForm.trigger('submit');
-      successfullySent();
     });
 
-    var whatever = setTimeout(function() {
-      if(jQuery('.modal').hasClass('sent')) {
-        return true;
-      } else {
-        return false;
-      }
-    }, 1000 );
-
-    function successfullySent() {
-      if (whatever === true) {
-        window.console.log('success');
-      } else {
-        window.console.log('failure');
-      }
-    }
-
-      
   }
+
+
+
+
+  // function ModalSubmit() {
+  //   var modalContactForm = jQuery('.modal form');
+  //   var originalSubmitButton = jQuery('.modal input.wpcf7-submit');
+  //   originalSubmitButton.hide();
+  //   var newSubmitButton = jQuery('.modal .modal-footer button.btn-primary');
+
+  //   newSubmitButton.click(function(event) {
+  //     event.stopPropagation();
+  //     modalContactForm.trigger('submit');
+  //     successfullySent();
+  //   });
+
+  //   var whatever = setTimeout(function() {
+  //     if(jQuery('.modal').hasClass('sent')) {
+  //       return true;
+  //     } else {
+  //       return false;
+  //     }
+  //   }, 1000 );
+
+  //   function successfullySent() {
+  //     if (whatever === true) {
+  //       window.console.log('success');
+  //     } else {
+  //       window.console.log('failure');
+  //     }
+  //   }
+      
+  // }
     
-  var sliderObject = new slider();
-  var stickyNavObject = new stickyNav();
-  var modalListener = new modalSubmit();
+  var sliderObject = new Slider();
+  var stickyNavObject = new StickyNav();
+  // var modalListener = new ModalSubmit();
 
 });

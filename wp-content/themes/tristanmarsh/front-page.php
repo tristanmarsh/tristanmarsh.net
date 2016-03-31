@@ -10,7 +10,7 @@
           <div class="col-md-9 col-sm-8">
             <h1 class="hero animated fadeInUp">hello</h1>
             <p class="lead animated fadeInUp">I'm Tristan.</p>
-            <p class="lead animated fadeInUp">I craft beautiful parts of the web.</p>
+            <p class="lead animated fadeInUp">I craft neat little things for the web.</p>
           </div>
 
           <div class=" col-sm-4 col-md-3 hidden-xs">
@@ -27,9 +27,9 @@
       <div class="row">
         <div class="col-sm-12">
           
-          <h2>i have things to say about myself</h2>
+          <h2>front end developer and designer from melbourne</h2>
         
-          <p>Just give me a moment to collect me thoughts</p>
+          <p class="lead">specialising in front end development and the creation of custom content management systems to meet personal, small business and professional online needs.</p>
 
         </div>
 
@@ -44,17 +44,17 @@
         <div class="col-sm-4 animated fadeIn">
           <img src="<?php echo get_stylesheet_directory_uri()?>/resources/images/icons/html5.svg" alt="html5" />
           <h3>HTML5 & CSS3</h3>
-          <p class="lead">Crafting websites with HTML5 compliant markup & CSS3 stlye</p>
+          <p class="lead">Crafting websites with HTML5 compliant markup & CSS3 style</p>
           </div>
         <div class="col-sm-4 animated fadeIn">
           <img src="<?php echo get_stylesheet_directory_uri()?>/resources/images/icons/responsive.svg" alt="responsive design" />
           <h3>Responsive Design</h3>
-          <p class="lead">Designed to ensure your website looks amazing on all devices</p>
+          <p class="lead">Designed to ensure your website looks amazing on all devices and screen sizes</p>
           </div>
         <div class="col-sm-4 animated fadeIn">
           <img src="<?php echo get_stylesheet_directory_uri()?>/resources/images/icons/wordpress.svg" alt="WordPress" />
           <h3>WordPress</h3>
-          <p class="lead">Leveraging the power of WordPress to create custom Content Management Systems to fit the needs of your website</p>
+          <p class="lead">Leveraging the power of WordPress to create custom Content Management Systems to best serve your online needs</p>
         </div>
       </div>
     </div>
@@ -70,28 +70,39 @@
           <ul class="slides">
 
             <li class="slide" background-color="#9526EA">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae reprehenderit a. Itaque, amet, architecto!</p>
-              <img class="profile-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="Jeff Jones"><span>Jeff Jones</span>
+              <p>Oh dear! You're actually looking at my website!</p>
+              <img class="profile-image" src="<?php echo get_stylesheet_directory_uri() ?>/resources/images/profile-tristan-marsh.png" alt="Tristan Marsh Profile" />
+              <span>Tristan Marsh</span>
             </li>
 
             <li class="slide" background-color="#2848F4">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat quia aspernatur ut libero nulla impedit expedita iure sit, reprehenderit quos hic?</p>
-              <img class="profile-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/peterlandt/128.jpg" alt="profile picture"> <span>Ben Fellows</span>
+              <p>I'm terribly sorry, this wasn't really supposed to happen for another week or so.</p>
+              <img class="profile-image" src="<?php echo get_stylesheet_directory_uri() ?>/resources/images/profile-tristan-marsh.png" alt="Tristan Marsh Profile" />
+              <span>Tristan Marsh</span>
             </li>
 
             <li class="slide" background-color="#2FC5DD">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi ab quia eaque sit voluptatem.</p>
-              <img class="profile-image" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/0b2/287/3ef4336.jpg" alt="profile picture"> <span>Tristan Marsh</span>
+              <p>I threw this concept together last week and haven't quite had the chance to finish off the design, actual site, or any kind of testimonial from past clients.</p>
+              <img class="profile-image" src="<?php echo get_stylesheet_directory_uri() ?>/resources/images/profile-tristan-marsh.png" alt="Tristan Marsh Profile" />
+              <span>Tristan Marsh</span>
             </li>
 
             <li class="slide" background-color="#28F477">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nesciunt vitae minima iste rerum, quos optio.</p>
-              <img class="profile-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="profile picture"> <span>Zelda's Friend</span>
+              <p>Oh well, it's better to publish something now rather than wait until the final perfect vision is complete.</p>
+              <img class="profile-image" src="<?php echo get_stylesheet_directory_uri() ?>/resources/images/profile-tristan-marsh.png" alt="Tristan Marsh Profile" />
+              <span>Tristan Marsh</span>
             </li>
 
             <li class="slide" background-color="#78EA1A">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum esse, animi, ipsa distinctio similique!</p>
-              <img class="profile-image" src="https://s3.amazonaws.com/uifaces/faces/twitter/esthercrawford/128.jpg" alt="profile picture"> <span>Hannah Belltower</span>
+              <p>Gosh, maybe I shouldn't say that on a portfolio site. I would never do that without the client's approval. I promise.</p>
+              <img class="profile-image" src="<?php echo get_stylesheet_directory_uri() ?>/resources/images/profile-tristan-marsh.png" alt="Tristan Marsh Profile" />
+              <span>Tristan Marsh</span>
+            </li>
+
+            <li class="slide" background-color="#78EA1A">
+              <p>Anyway, hopefully the shame of having this incomplete site up will soon bring about the final vision. Thanks for looking.</p>
+              <img class="profile-image" src="<?php echo get_stylesheet_directory_uri() ?>/resources/images/profile-tristan-marsh.png" alt="Tristan Marsh Profile" />
+              <span>Tristan Marsh</span>
             </li>
 
           </ul>
@@ -99,6 +110,7 @@
           <div class="slider-controls">
             <ul>
               <li class="active"></li>
+              <li></li>
               <li></li>
               <li></li>
               <li></li>
@@ -118,29 +130,33 @@
         <h2>recent projects</h2>
 
         <div class="col-sm-6 col-md-4">
-          <img src="#" alt="DC Strategy" />
-          <h3>DC Strategy</h3>
-          <p class="lead">Built it</p>
-          <p>Things were involved</p>
-        </div>
-
-        <div class="col-sm-6 col-md-4" style="background:rgb(249,211,193)">
-          <a href="#">
-            <img src="<?php echo get_stylesheet_directory_uri() ?>/resources/images/icons/bygones-text-logo.svg" alt="Bygones" />
+          <a href="http://dcstrategy.com/" style="background:rgb(149, 126, 94)">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/icons/dc-strategy-logo-white.png" alt="DC Strategy" />
           </a>
-          <h3>Bygones</h3>
-          <p class="lead">Designed & Built it</p>
-          <p>Things were involved</p>
-        </div>
-
-        <div class="col-sm-6 col-md-4" style="background:rgb(137, 213, 253)">
-            <img  height:80px" src="<?php echo get_stylesheet_directory_uri() ?>/resources/images/logo/logo-light-transparent.svg" alt="This Website" />
-          <h3>This Website</h3>
-          <p>Things were involved</p>
-          <p class="lead">Designed & Built it</p>
+          <h3>DC Strategy</h3>
+<!--           <p class="lead">Built it</p>
+          <p>Things were involved</p> -->
         </div>
 
         <div class="col-sm-6 col-md-4">
+          <a href="http://bygonesblog.com/" style="background:rgb(249,211,193)">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/icons/bygones-text-logo.svg" alt="Bygones" />
+          </a>
+          <h3>Bygones</h3>
+<!--           <p class="lead">Designed & Built it</p>
+          <p>Things were involved</p> -->
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <a href="#section-hero" style="background:rgb(137, 213, 253)">
+            <img "height:80px" src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/logo/logo-light-transparent.svg" alt="This Website" />
+          </a>
+          <h3>This Website</h3>
+<!--           <p>Things were involved</p>
+          <p class="lead">Designed & Built it</p> -->
+        </div>
+
+<!--         <div class="col-sm-6 col-md-4">
           <img src="#" alt="Home For Tomorrow" />
           <h3>Home For Tomorrow</h3>
           <p class="lead">Built it</p>
@@ -159,7 +175,7 @@
           <h3>This Website</h3>
           <p class="lead">Designed & Built it</p>
           <p>Things were involved</p>
-        </div>
+        </div> -->
 
       </div>
     </div>
@@ -184,6 +200,7 @@
   </div>
 
 </div>
+
 
 <?php get_template_part('sidebar.php'); ?>
 

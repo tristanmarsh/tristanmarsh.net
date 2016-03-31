@@ -11,32 +11,35 @@
     <?php wp_head(); ?>
   </head>
 
-  <div class="head animated fadeInDown">
-
-    <div class="container">
-      
-      <div class="row">
-    
-        <div class="brand col-sm-5">
-          <img src="<?php echo get_stylesheet_directory_uri() . '/resources/images/logo/logo-light-transparent.svg' ?>" alt="TM" class="logo" />
-          <span>
-            <a href="#" class="name">Tristan Marsh</a>
-            <p>front end developer</p>
-          </span>
-        </div>
-
-        <nav class="col-sm-8">
-          <ul>
-            <li><a href="#">about</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">contact</a></li>
-          </ul>
-        </nav>
-
-      </div>
-      
-    </div>
-  </div>
-
   <body <?php body_class(); ?>>
+
+    <header class="head animated fadeInDown">
+
+      <div class="container">
+        
+        <div class="row">
+      
+          <div class="brand col-sm-5">
+            <a href="<?php echo bloginfo('url'); ?>" class="name">
+              <img src="<?php echo get_stylesheet_directory_uri() . '/resources/images/logo/logo-light-transparent.svg' ?>" alt="TM" class="logo" />
+            </a>
+            <span>
+              <a href="<?php echo bloginfo('url'); ?>#section-hero" class="name">Tristan Marsh</a>
+              <p>front end developer</p>
+            </span>
+          </div>
+
+          <nav class="col-sm-8">
+            <ul>
+              <li><a href="<?php echo bloginfo('url'); ?>/#section-intro">about</a></li>
+              <li><a href="<?php echo bloginfo('url'); ?>/#section-portfolio">portfolio</a></li>
+              <li><a href="<?php echo bloginfo('url'); ?>/#section-expertise">services</a></li>
+              <li><a href="<?php echo bloginfo('url'); ?>#section-call-to-action">contact</a></li>
+            </ul>
+          </nav>
+
+        </div>
+        
+      </div>
+    </header>
+
