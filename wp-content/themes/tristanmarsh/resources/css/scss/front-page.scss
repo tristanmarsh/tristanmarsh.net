@@ -336,9 +336,12 @@
 
     text-align: center;
 
+    h2 {
+      margin-bottom:60px;
+    }
+
     div {
-      min-height:400px;
-      margin-bottom:40px;
+      margin-bottom:0px;
     }
 
     a {
@@ -347,6 +350,12 @@
       left:0;
       height:200px;
       background:green;
+      margin-bottom:40px;
+      overflow: hidden;
+    }
+
+    a:hover img{
+      transform:translateY(-50%) scale(1.1);
     }
 
     img {
@@ -358,6 +367,7 @@
       padding:20px;
       max-height:150px;
       margin: 0 auto;
+      transition:transform 400ms ease;
     }
 
     // img:hover {

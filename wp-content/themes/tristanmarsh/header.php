@@ -20,7 +20,7 @@
         <div class="row">
       
           <div class="brand col-sm-5">
-            <a href="<?php echo bloginfo('url'); ?>" class="name">
+            <a href="<?php echo bloginfo('url'); ?>#section-hero">
               <img src="<?php echo get_stylesheet_directory_uri() . '/resources/images/logo/logo-light-transparent.svg' ?>" alt="TM" class="logo" />
             </a>
             <span>

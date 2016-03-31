@@ -130,31 +130,32 @@
         <h2>recent projects</h2>
 
         <div class="col-sm-6 col-md-4">
+          <a href="#section-hero" style="background:rgb(137, 213, 253)">
+            <img "height:80px" src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/logo/logo-light-transparent.svg" alt="This Website" />
+          </a>
+          <h3>This Website</h3>
+          <p class="lead">Designed & Built it</p>
+          <!-- <p>Things were involved</p> -->
+        </div>
+
+        <div class="col-sm-6 col-md-4">
           <a href="http://dcstrategy.com/" style="background:rgb(149, 126, 94)">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/icons/dc-strategy-logo-white.png" alt="DC Strategy" />
           </a>
           <h3>DC Strategy</h3>
-<!--           <p class="lead">Built it</p>
-          <p>Things were involved</p> -->
+          <p class="lead">Built it</p>
+          <!-- <p>Things were involved</p> -->
         </div>
-
+        
         <div class="col-sm-6 col-md-4">
           <a href="http://bygonesblog.com/" style="background:rgb(249,211,193)">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/icons/bygones-text-logo.svg" alt="Bygones" />
           </a>
           <h3>Bygones</h3>
-<!--           <p class="lead">Designed & Built it</p>
-          <p>Things were involved</p> -->
+          <p class="lead">Designed & Built it</p>
+          <!-- <p>Things were involved</p> -->
         </div>
 
-        <div class="col-sm-6 col-md-4">
-          <a href="#section-hero" style="background:rgb(137, 213, 253)">
-            <img "height:80px" src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/logo/logo-light-transparent.svg" alt="This Website" />
-          </a>
-          <h3>This Website</h3>
-<!--           <p>Things were involved</p>
-          <p class="lead">Designed & Built it</p> -->
-        </div>
 
 <!--         <div class="col-sm-6 col-md-4">
           <img src="#" alt="Home For Tomorrow" />
