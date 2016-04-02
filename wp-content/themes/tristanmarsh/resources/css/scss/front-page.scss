@@ -290,13 +290,13 @@
       display:block;
       position:absolute;
       bottom:20px;
-      margin:0 auto;
       z-index:10;
       left:50%;
       transform:translateX(-50%);
 
       ul {
         display:inline;
+        padding:0;
       }
 
       li {
