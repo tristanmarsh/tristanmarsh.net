@@ -10,7 +10,7 @@
           <div class="col-md-9 col-sm-8">
             <h1 class="hero animated fadeInUp">hello</h1>
             <p class="lead animated fadeInUp">I'm Tristan.</p>
-            <p class="lead animated fadeInUp">I craft neat little things for the web.</p>
+            <p class="lead animated fadeInUp">I craft neat little pieces of the web.</p>
           </div>
 
           <div class=" col-sm-4 col-md-3 hidden-xs">
