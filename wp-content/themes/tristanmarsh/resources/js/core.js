@@ -115,13 +115,18 @@ jQuery(document).ready(function() {
   function StickyNav() {
     
     var head = jQuery('header.head');
-    
-    jQuery(window).scroll(function() {
-      if (jQuery(this).scrollTop() > 1) { // this refers to window
+
+    var updateHeader = function() {
+       if (jQuery(window).scrollTop() > 1) { // this refers to window
         jQuery(head).addClass('scrolled');
-      } else if (jQuery(this).scrollTop() < 1) {
+      } else if (jQuery(window).scrollTop() < 1) {
         jQuery(head).removeClass('scrolled');
       }
+    };
+      
+    jQuery(window).scroll(function(head) {
+      window.console.log('updating header');
+      updateHeader();
     });
 
   }
