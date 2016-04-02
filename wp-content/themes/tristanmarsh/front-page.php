@@ -129,32 +129,141 @@
 
         <h2>recent projects</h2>
 
-        <div class="col-sm-6 col-md-4">
-          <a href="#section-hero" style="background:rgb(137, 213, 253)">
+        <div class="project col-sm-6 col-md-4">
+          <a data-toggle="modal" data-target="#portfolio-modal-tristanmarsh" style="background:rgb(137, 213, 253)">
             <img "height:80px" src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/logo/logo-light-transparent.svg" alt="This Website" />
           </a>
           <h3>This Website</h3>
-          <p class="lead">Designed & Built it</p>
+          <p class="lead">Designed & Built</p>
           <!-- <p>Things were involved</p> -->
+
+          <div class="modal fade" id="portfolio-modal-tristanmarsh" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-tristanmarsh">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="portfolio-modal-tristanmarsh">DC Strategy</h4>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/tristanmarsh-screenshot.jpg" alt="Tristan Marsh Screenshot">
+                    </div>
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/tristanmarsh-screenshot-slider.jpg" alt="Tristan Marsh Screenshot">
+                    </div>   
+                    
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/tristanmarsh-screenshot-skills.jpg" alt="Tristan Marsh Screenshot">
+                    </div>        
+
+                  </div>
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-alert pull-left" data-dismiss="modal">Close</button>
+                  <a class="btn btn-primary button button-action" data-dismiss="modal">See Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
-        <div class="col-sm-6 col-md-4">
-          <a href="http://dcstrategy.com/" style="background:rgb(149, 126, 94)">
+        <div class="project col-sm-6 col-md-4">
+          <a data-toggle="modal" data-target="#portfolio-modal-dcstrategy" style="background:rgb(149, 126, 94)">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/icons/dc-strategy-logo-white.png" alt="DC Strategy" />
           </a>
           <h3>DC Strategy</h3>
-          <p class="lead">Built it</p>
+          <p class="lead">Built</p>
           <!-- <p>Things were involved</p> -->
+
+          <div class="modal fade" id="portfolio-modal-dcstrategy" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-dcstrategy">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="portfolio-modal-dcstrategy">DC Strategy</h4>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-screenshot.jpg" alt="DC Strategy Screenshot">
+                    </div>
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-screenshot-navigation.jpg" alt="DC Strategy Screenshot">
+                    </div>        
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-screenshot-franchisors.jpg" alt="DC Strategy Screenshot">
+                    </div>
+
+                    <div class="col-md-12">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-dcstrategy-screenshot-search.jpg" alt="DC Strategy Screenshot">
+                    </div>
+
+                  </div>
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-alert pull-left" data-dismiss="modal">Close</button>
+                  <a class="btn btn-primary button button-action" target="_blank" href="http://dcstrategy.com/">See Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-        
-        <div class="col-sm-6 col-md-4">
-          <a href="http://bygonesblog.com/" style="background:rgb(249,211,193)">
+
+        <div class="project col-sm-6 col-md-4">
+          <a data-toggle="modal" data-target="#portfolio-modal-bygones" style="background:rgb(249,211,193)">
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/icons/bygones-text-logo.svg" alt="Bygones" />
           </a>
           <h3>Bygones</h3>
-          <p class="lead">Designed & Built it</p>
+          <p class="lead">Designed & Built</p>
           <!-- <p>Things were involved</p> -->
+
+          <div class="modal fade" id="portfolio-modal-bygones" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-bygones">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="portfolio-modal-bygones">Bygones</h4>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/bygones-screenshot.jpg" alt="Bygones Screenshot">
+                    </div>
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/bygones-screenshot-post.jpg" alt="Bygones Screenshot">
+                    </div>        
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/bygones-screenshot-about.jpg" alt="Bygones Screenshot">
+                    </div>
+
+                  </div>
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-alert pull-left" data-dismiss="modal">Close</button>
+                  <a class="btn btn-primary button button-action" target="_blank" href="http://bygonesblog.com/">See Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+        
+
 
 
 <!--         <div class="col-sm-6 col-md-4">
@@ -177,6 +286,9 @@
           <p class="lead">Designed & Built it</p>
           <p>Things were involved</p>
         </div> -->
+    
+        <!-- Eventually use a single modal element which pulls in post content via ajax -->
+
 
       </div>
     </div>

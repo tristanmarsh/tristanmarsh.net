@@ -1,15 +1,15 @@
 // md Up (greater than 767px)
 @media(min-width:768px) {
-	
-	.head {
+  
+  .head {
 
-		.brand {
-	    padding:30px 30px 30px 0;
-	    float:left;
-		}
+    .brand {
+      padding:30px 30px 30px 0;
+      float:left;
+    }
 
     span {
-    	margin-left:30px;
+      margin-left:30px;
     }
 
     .logo {
@@ -17,14 +17,18 @@
       margin-right:30px;
     }
 
-	}
-
-	.home {
-
-	  .head {
+    p {
       float:left;
-			background:rgba(9, 35, 38, 0);
-	  }
+    }
+
+  }
+
+  .home {
+
+    .head {
+      float:left;
+    background:rgba(9, 35, 38, 0);
+    }
 
   }
 

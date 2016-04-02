@@ -331,11 +331,12 @@
       margin-bottom:60px;
     }
 
-    div {
+    .project {
       margin-bottom:0px;
     }
 
-    a {
+
+    .project> a {
       display:block;
       position:relative;
       left:0;
@@ -345,11 +346,15 @@
       overflow:hidden;
     }
 
-    a:hover img{
+   .project> a:hover {
+      cursor:pointer;
+    }
+
+    .project>a:hover>img{
       transform:translateY(-50%) scale(1.1);
     }
 
-    img {
+    .project>a>img {
       position:absolute;
       display:block;
       top:50%;
@@ -361,9 +366,15 @@
       transition:transform 400ms ease;
     }
 
-    // img:hover {
-    //   transform:scale(0.98);
-    // }
+    .project .modal {
+  
+      img {
+        border:1px solid #e5e5e5;
+        margin-bottom:40px;
+      }
+
+
+    }
 
   }
 
