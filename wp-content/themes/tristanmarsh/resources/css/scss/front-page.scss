@@ -26,12 +26,12 @@
   }
 
   .image-container:nth-child(1) {
-    background-image: url(resources/images/background/hero-20.jpg);
-    // background-attachment: fixed;
+    background-image:url(resources/images/background/hero-20.jpg);
+    // background-attachment:fixed;
   }
 
   .image-container:nth-child(4) {
-    background-image: url(resources/images/background/hero-2.jpg);
+    background-image:url(resources/images/background/hero-2.jpg);
   }
 
   .image-container:nth-child(6) {
@@ -40,7 +40,7 @@
 
 
 // .image-container:nth-of-type(7) {
-  // background: url(resources/images/background/hero-3.jpg);
+  // background:url(resources/images/background/hero-3.jpg);
 // }
 
 
@@ -60,15 +60,15 @@
     }
 
     .container {
-      position: relative;
+      position:relative;
       height:100%;
     }
 
     div[class*="col"] {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      margin-top: -100px;
+      position:absolute;
+      top:50%;
+      transform:translateY(-50%);
+      margin-top:-100px;
     }
 
     div[class*="col"]:last-child {
@@ -76,27 +76,27 @@
     }
 
     .animated:nth-of-type(1) {
-      animation-duration: 2s;
-      animation-delay: 0;
-      animation-iteration-count: 1;
+      animation-duration:2s;
+      animation-delay:0;
+      animation-iteration-count:1;
     }
 
     .animated:nth-child(2) {
-      animation-duration: 2s;
-      animation-delay: 2000ms;
-      animation-iteration-count: 1;
+      animation-duration:2s;
+      animation-delay:2000ms;
+      animation-iteration-count:1;
     }
 
     .animated:nth-child(3) {
-      animation-duration: 2s;
-      animation-delay: 3500ms;
-      animation-iteration-count: 1;
+      animation-duration:2s;
+      animation-delay:3500ms;
+      animation-iteration-count:1;
     }
 
     .animated.profile-image {
-      animation-duration: 1500ms;
-      animation-delay: 500ms;
-      animation-iteration-count: 1;
+      animation-duration:1500ms;
+      animation-delay:500ms;
+      animation-iteration-count:1;
     }
 
     
@@ -116,7 +116,7 @@
   #section-intro {
     
     background:#efefef;
-    text-align: center;
+    text-align:center;
     
   }
 
@@ -174,7 +174,7 @@
       background:rgba(137, 213, 253, 0.8);
 
       &>h2 {
-        text-transform: uppercase;
+        text-transform:uppercase;
         font-weight:300;
         font-size:4em;
         opacity:0.7;
@@ -221,7 +221,7 @@
       .profile-image {
         height:140px;
         border-radius:140px;
-        vertical-align: middle;
+        vertical-align:middle;
         border:4px solid rgba(255,255,255,0.4);
         transition:transform 200ms ease;
         transform:scale(0.8);
@@ -325,7 +325,7 @@
 
   #section-portfolio {
 
-    text-align: center;
+    text-align:center;
 
     h2 {
       margin-bottom:60px;
@@ -336,13 +336,13 @@
     }
 
     a {
-      display: block;
+      display:block;
       position:relative;
       left:0;
       height:200px;
       background:green;
       margin-bottom:40px;
-      overflow: hidden;
+      overflow:hidden;
     }
 
     a:hover img{
@@ -350,14 +350,14 @@
     }
 
     img {
-      position: absolute;
-      display: block;
+      position:absolute;
+      display:block;
       top:50%;
       transform:translateY(-50%);
       width:100%;
       padding:20px;
       max-height:150px;
-      margin: 0 auto;
+      margin:0 auto;
       transition:transform 400ms ease;
     }
 
@@ -370,7 +370,7 @@
   #section-call-to-action {
 
     background:rgba(137, 213, 253, 0.8);
-    text-align: center;
+    text-align:center;
     color:#fff;
 
     h2 {
