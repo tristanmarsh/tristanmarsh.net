@@ -1,0 +1,168 @@
+.head {
+ 
+  position:fixed;
+  top:0;
+  width:100%;
+  background:rgba(9, 35, 38, 1);
+  color:rgba(255, 255, 255, 0.8);
+  font-family:"Proxima Nova Soft", sans-serif;
+  transition:all 200ms ease;
+  z-index:100;
+  opacity:0.7;
+  animation-duration:2s;
+  animation-delay:0;
+  animation-iteration-count:1;
+ 
+  body.admin-bar & {
+    top:32px;
+  }
+
+  .container {
+    position:relative;    
+  }
+  
+  a {
+    text-decoration:none;
+    transition:all 200ms ease;
+    color:rgba(255, 255, 255, 0.5);
+  }
+    
+  a:hover {
+    color:rgba(255, 255, 255, 1);
+  }
+    
+  
+  .brand {
+    transition:all 400ms ease;
+
+    .logo {
+      height:60px;
+      width:60px;
+      transition:all 400ms ease;
+    }
+
+    span {
+      display:block;
+      transition:all 400ms ease;
+      padding-top:10px;
+    }
+
+    span p {
+      transition:all 400ms ease;
+    }
+
+    .name {
+      display:block;
+      font-size:1.4em;
+      font-weight:600;
+      color:rgba(255, 255, 255, 1);
+    }
+
+    p {
+      display:block;
+      margin-bottom:0;
+      float:left;
+    }
+
+  }
+  
+  nav {
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:0;
+    font-weight:600;
+    font-size:1.3em;
+    font-family:"Proxima Nova Soft", sans-serif;
+    float:right;
+    
+    ul {
+      list-style:none;
+      margin-bottom:0;
+      right:0;
+    }
+    
+    li {
+      display:table-cell;
+      vertical-align:middle;
+      float:left;
+    }
+    
+    // CTA Contact Button
+    li:last-child {
+      border-radius:4px;
+      padding:10px 0;
+      vertical-align:top;
+      margin-top:-10px;
+      margin-bottom:-10px;
+      transition:all 400ms ease;
+    }
+
+    li:last-child a:hover {
+      color:#fff;
+    }
+
+    a {
+      padding:40px;
+    }
+
+
+  }
+  
+}
+
+
+.head.scrolled {
+
+  background:rgba(9, 35, 38, 1)!important;
+  color:rgba(255,255,255,1)!important;
+
+  a {
+    color:rgba(255, 255, 255, 1);
+  }
+
+  &:hover {
+    color:rgba(137, 213, 253, 1);
+  }
+
+  .brand {
+    padding:10px 30px;
+  }
+  
+  .logo {
+    transform:scale(66%);
+    height:40px;
+    width:40px;
+  }
+  
+  span p {
+    transform:scale(0);
+    line-height:0;
+  }
+  
+  nav {
+    
+    a {
+      padding:10px 40px;
+      color:inherit;
+    }
+    
+    a:hover {
+      color:rgba(137, 213, 253, 1);
+    }
+
+    // CTA Contact Button
+    li:last-child {
+      background:rgba(34, 186, 69, 1);
+    }
+
+    li:last-child:hover,
+    li:last-child a:hover {
+      background:#35da5b;
+    }
+
+    
+  }
+  
+}
+ 

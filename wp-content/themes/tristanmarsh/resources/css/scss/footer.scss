@@ -1,0 +1,48 @@
+.subfooter {
+  padding:40px 0;
+  background-color:#003842;
+  color:#eee;
+
+  ul {
+    list-style:none;
+    padding-left:0;
+  }
+
+  a {
+    color:#fff;
+  }
+  
+}
+
+.footer {
+
+  background:#092326;
+
+  p {
+    margin-bottom:0;
+  }
+
+  .copyright,
+  .credits {
+
+    padding:40px 0;
+    margin-bottom:0;
+    color:#CBCBCB;
+
+    a {color:#CBCBCB;}
+
+  }
+
+  .copyright {}
+  
+  .logo {
+    display:block;
+    margin:20px auto;
+  }
+
+  .credits {
+    text-align:right;
+  }
+
+
+}
