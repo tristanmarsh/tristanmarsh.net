@@ -13,6 +13,8 @@
     <script src="https://use.typekit.net/wpm4vhc.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
+    <?php include_once('analyticstracking.php') ?>
+
   </head>
 
   <body <?php body_class(); ?>>
