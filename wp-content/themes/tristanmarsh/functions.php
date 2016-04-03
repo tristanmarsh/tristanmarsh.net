@@ -13,7 +13,7 @@ function tristanmarsh_scripts() {
   // Load jQuery (already registered)
   wp_enqueue_script('jquery');
 
-  // Load jQuery (already registered)
+  // Load Bootstrap
   wp_enqueue_script('bootstrap', get_template_directory_uri() . '/resources/js/min/bootstrap.min.js');
 
   // Load main theme script
