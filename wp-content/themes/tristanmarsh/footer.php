@@ -5,7 +5,7 @@
         <div class="col-sm-4">
           <h3>Contact</h3>
           <ul>
-            <li><a href="#">Someting</a></li>
+            <li><a href="#">Something</a></li>
             <li><a href="#">Goes</a></li>
             <li><a href="#">Here</a></li>
             <li><a href="#">For Sure</a></li>
@@ -14,7 +14,7 @@
         <div class="col-sm-4">
           <h3>Contact</h3>
           <ul>
-            <li><a href="#">Someting</a></li>
+            <li><a href="#">Something</a></li>
             <li><a href="#">Goes</a></li>
             <li><a href="#">Here</a></li>
             <li><a href="#">For Sure</a></li>
@@ -23,7 +23,7 @@
         <div class="col-sm-4">
           <h3>Contact</h3>
           <ul>
-            <li><a href="#">Someting</a></li>
+            <li><a href="#">Something</a></li>
             <li><a href="#">Goes</a></li>
             <li><a href="#">Here</a></li>
             <li><a href="#">For Sure</a></li>
