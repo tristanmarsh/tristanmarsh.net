@@ -28,4 +28,18 @@ function tristanmarsh_scripts() {
 add_action('wp_enqueue_scripts', 'tristanmarsh_scripts');
 
 
+function tristanmarsh_widgets() {
+
+  register_sidebar( array(
+      'name'            => 'Contact Call To Action',
+      'id'              => 'contact_call_to_action',
+      'before_widget'   => '<div>',
+      'after_widget'    => '</div>',
+      'before_title'    => '<h2>',
+      'after_title'     => '</h2>',
+    ) );
+
+}
+add_action('widgets_init', 'tristanmarsh_widgets');
+
 ?>

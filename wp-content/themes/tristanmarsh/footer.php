@@ -60,9 +60,11 @@
           <h4 class="modal-title" id="contactModalLabel">New message</h4>
         </div>
         <div class="modal-body">
-          <?php
-            echo do_shortcode('[contact-form-7 id="8" title="Contact form 1"]');
-          ?>
+
+          <?php if ( is_active_sidebar( 'contact_call_to_action' ) ) : ?>
+              <?php dynamic_sidebar( 'contact_call_to_action' ); ?>
+          <?php endif; ?>
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-alert pull-left" data-dismiss="modal">Close</button>
