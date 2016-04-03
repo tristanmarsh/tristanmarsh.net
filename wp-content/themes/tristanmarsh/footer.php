@@ -76,10 +76,6 @@
 
   <?php wp_footer(); ?>
 
-  <!-- Typekit Fonts -->
-  <script src="https://use.typekit.net/wpm4vhc.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
 </body>
 
 </html>
