@@ -52,9 +52,6 @@
 
   </footer>
 
-  <script src="https://use.typekit.net/wpm4vhc.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
   <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
