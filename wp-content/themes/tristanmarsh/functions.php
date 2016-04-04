@@ -13,11 +13,11 @@ function tristanmarsh_scripts() {
   // Load jQuery (already registered)
   wp_enqueue_script('jquery');
 
-  // Load Bootstrap
-  wp_enqueue_script('bootstrap', get_template_directory_uri() . '/resources/js/min/bootstrap.min.js');
-
-  // Load main theme script
+    // Load main theme script
   wp_enqueue_script( 'core', get_template_directory_uri() . '/resources/js/min/core-min.js', array(), false );
+
+  // Load Bootstrap
+  wp_enqueue_script('bootstrap', get_template_directory_uri() . '/resources/js/min/bootstrap.min.js', true);
 
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
     wp_enqueue_script( 'comment-reply' );
