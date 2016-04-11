@@ -12,12 +12,51 @@
           </ul>
         </div>
         <div class="col-sm-4">
-          <h3>Contact</h3>
-          <ul>
-            <li><a href="#">Something</a></li>
-            <li><a href="#">Goes</a></li>
-            <li><a href="#">Here</a></li>
-            <li><a href="#">For Sure</a></li>
+          <h3>Connect</h3>
+          <ul class="social-connect">
+
+            <li> 
+              <a href="http://facebook.com/tristanmarsh92">
+                <i class="fa fa-facebook-square"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/triistanmarsh/">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/tristanmarsh/">
+                <i class="fa fa-github-alt"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://codepen.io/tristanmarsh/">
+                <i class="fa fa-codepen"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://teamtreehouse.com/tristanmarsh">
+                <i class="fa fa-tree"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com/tristanmarsh92">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://plus.google.com/+TristanMarsh92">
+                <i class="fa fa-google-plus-square"></i>
+              </a>
+            </li>
+
           </ul>
         </div>
         <div class="col-sm-4">
