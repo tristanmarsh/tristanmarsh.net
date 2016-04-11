@@ -4,6 +4,7 @@
   color:#eee;
 
   ul {
+    display: block;
     list-style:none;
     padding-left:0;
   }
@@ -18,7 +19,7 @@
 
   .fa {
     font-size:3em;
-    display:inline-block;
+    display:block;
     float:left;
     margin:0 15px 20px 0;
     transition:all 400ms ease;

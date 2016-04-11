@@ -57,6 +57,8 @@
               </a>
             </li>
 
+            <div class="clearfix"></div>
+
           </ul>
         </div>
         <div class="col-sm-4">
