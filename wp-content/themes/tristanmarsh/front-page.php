@@ -142,7 +142,7 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="portfolio-modal-tristanmarsh">DC Strategy</h4>
+                  <h4 class="modal-title" id="portfolio-modal-tristanmarsh">TristanMarsh.net</h4>
                 </div>
                 <div class="modal-body">
                   
@@ -195,15 +195,11 @@
                     </div>
 
                     <div class="col-md-6">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-screenshot-navigation.jpg" alt="DC Strategy Screenshot">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-dcstrategy-screenshot-search.jpg" alt="DC Strategy Screenshot">
                     </div>        
 
                     <div class="col-md-6">
                       <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-screenshot-franchisors.jpg" alt="DC Strategy Screenshot">
-                    </div>
-
-                    <div class="col-md-12">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-dcstrategy-screenshot-search.jpg" alt="DC Strategy Screenshot">
                     </div>
 
                   </div>
