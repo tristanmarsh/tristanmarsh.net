@@ -5,25 +5,66 @@
         <div class="col-sm-4">
           <h3>Contact</h3>
           <ul>
-            <li><a href="#">Someting</a></li>
+            <li><a href="#">Something</a></li>
             <li><a href="#">Goes</a></li>
             <li><a href="#">Here</a></li>
             <li><a href="#">For Sure</a></li>
           </ul>
         </div>
         <div class="col-sm-4">
-          <h3>Contact</h3>
-          <ul>
-            <li><a href="#">Someting</a></li>
-            <li><a href="#">Goes</a></li>
-            <li><a href="#">Here</a></li>
-            <li><a href="#">For Sure</a></li>
+          <h3>Connect</h3>
+          <ul class="social-connect">
+
+            <li> 
+              <a href="http://facebook.com/tristanmarsh92">
+                <i class="fa fa-facebook-square"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/triistanmarsh/">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/tristanmarsh/">
+                <i class="fa fa-github-alt"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://codepen.io/tristanmarsh/">
+                <i class="fa fa-codepen"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://teamtreehouse.com/tristanmarsh">
+                <i class="fa fa-tree"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/tristanmarsh">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+
+<!--             <li>
+              <a href="https://plus.google.com/+TristanMarsh92">
+                <i class="fa fa-google-plus-square"></i>
+              </a>
+            </li> -->
+
+            <div class="clearfix"></div>
+
           </ul>
         </div>
         <div class="col-sm-4">
           <h3>Contact</h3>
           <ul>
-            <li><a href="#">Someting</a></li>
+            <li><a href="#">Something</a></li>
             <li><a href="#">Goes</a></li>
             <li><a href="#">Here</a></li>
             <li><a href="#">For Sure</a></li>
@@ -42,7 +83,9 @@
           <p>Copyright © 2016 Tristan Marsh</p>
         </div>
         <div class="col-sm-2">
-          <img src="<?php echo get_stylesheet_directory_uri() . '/resources/images/logo/logo-light.svg' ?>" alt="TM" width="60px" class="logo" />
+          <a href="#section-hero">
+            <img src="<?php echo get_stylesheet_directory_uri() . '/resources/images/logo/logo-light.svg' ?>" alt="TM" width="60px" class="logo" />
+          </a>
         </div>
         <div class="col-sm-5 credits">
           <p><a href="#section-hero">designed and built by me</a></p>
@@ -52,9 +95,6 @@
 
   </footer>
 
-  <script src="https://use.typekit.net/wpm4vhc.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
   <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -63,9 +103,11 @@
           <h4 class="modal-title" id="contactModalLabel">New message</h4>
         </div>
         <div class="modal-body">
-          <?php
-            echo do_shortcode('[contact-form-7 id="8" title="Contact form 1"]');
-          ?>
+
+          <?php if ( is_active_sidebar( 'contact_call_to_action' ) ) : ?>
+              <?php dynamic_sidebar( 'contact_call_to_action' ); ?>
+          <?php endif; ?>
+
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-alert pull-left" data-dismiss="modal">Close</button>
@@ -76,5 +118,7 @@
   </div>
 
   <?php wp_footer(); ?>
+
+</body>
 
 </html>

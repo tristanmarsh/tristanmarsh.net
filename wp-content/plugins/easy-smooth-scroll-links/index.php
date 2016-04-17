@@ -3,7 +3,7 @@
 Plugin Name: Easy Smooth Scroll Links
 Plugin URI: http://www.jeriffcheng.com/wordpress-plugins/easy-smooth-scroll-links
 Description: Create anchors and add up to to 30 scrolling animation effects to links that link to page anchors. You can set scroll speed and offset value. 
-Version: 2.0
+Version: 2.1
 Author: Jeriff Cheng
 Author URI: http://www.jeriffcheng.com/
 */
@@ -80,7 +80,7 @@ define('ESSLPluginOptions_NICK', 'ESSL Settings');
 		*/
 		public static function file_path($file)
 		{
-			return ABSPATH.'wp-content/plugins/'.str_replace(basename( __FILE__),"",plugin_basename(__FILE__)).$file;
+			return plugin_dir_path( __FILE__ ).$file;
 		}
 		/** function/method
 		* Usage: hooking the plugin options/settings
@@ -161,7 +161,7 @@ define('ESSLPluginOptions_NICK', 'ESSL Settings');
 		
 		function essl_enqueue_jquery() {
 			wp_deregister_script( 'jquery-easing' );
-			wp_register_script( 'jquery-easing', '//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js',array( 'jquery' ) );
+			wp_register_script( 'jquery-easing', '//cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.js',array( 'jquery' ) );
 			wp_enqueue_script( 'jquery' );
 			wp_enqueue_script('jquery-easing');		
 		}		
@@ -204,7 +204,7 @@ define('ESSLPluginOptions_NICK', 'ESSL Settings');
 
 					$(document).ready(function()
 					{
-						$("area[href*=#],a[href*=#]:not([href=#]):not([href^='#tab']):not([href^='#quicktab']):not([href^='#pane'])<?php if($essl_exclude_begin) echo $essl_exclude_begin; ?><?php if($essl_exclude_match) echo $essl_exclude_match; ?>").bind("click", jump);
+						$("area[href*=\\#],a[href*=\\#]:not([href=\\#]):not([href^='\\#tab']):not([href^='\\#quicktab']):not([href^='\\#pane'])<?php if($essl_exclude_begin) echo $essl_exclude_begin; ?><?php if($essl_exclude_match) echo $essl_exclude_match; ?>").bind("click", jump);
 
 						if (location.hash){
 							setTimeout(function(){
@@ -224,7 +224,7 @@ define('ESSLPluginOptions_NICK', 'ESSL Settings');
 				(function( $ ) {
 					$(function() {
 						// More code using $ as alias to jQuery
-						$("area[href*=#],a[href*=#]:not([href=#]):not([href^='#tab']):not([href^='#quicktab']):not([href^='#pane'])<?php if($essl_exclude_begin) echo $essl_exclude_begin; ?><?php if($essl_exclude_match) echo $essl_exclude_match; ?>").click(function() {
+						$("area[href*=\\#],a[href*=\\#]:not([href=\\#]):not([href^='\\#tab']):not([href^='\\#quicktab']):not([href^='\\#pane'])<?php if($essl_exclude_begin) echo $essl_exclude_begin; ?><?php if($essl_exclude_match) echo $essl_exclude_match; ?>").click(function() {
 							if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 								var target = $(this.hash);
 								target = target.length ? target : $('[name=' + this.hash.slice(1) +']');

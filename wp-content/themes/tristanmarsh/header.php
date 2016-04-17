@@ -6,9 +6,15 @@
     <title><?php wp_title(); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-  
-  <!-- WP_HEAD_HOOK -->
+    
     <?php wp_head(); ?>
+
+    <!-- Typekit Fonts -->
+    <script src="https://use.typekit.net/wpm4vhc.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <?php include_once('analyticstracking.php') ?>
+
   </head>
 
   <body <?php body_class(); ?>>
