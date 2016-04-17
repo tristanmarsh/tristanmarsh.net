@@ -46,16 +46,16 @@
             </li>
 
             <li>
-              <a href="http://twitter.com/tristanmarsh92">
-                <i class="fa fa-twitter"></i>
+              <a href="https://www.linkedin.com/in/tristanmarsh">
+                <i class="fa fa-linkedin"></i>
               </a>
             </li>
 
-            <li>
+<!--             <li>
               <a href="https://plus.google.com/+TristanMarsh92">
                 <i class="fa fa-google-plus-square"></i>
               </a>
-            </li>
+            </li> -->
 
             <div class="clearfix"></div>
 

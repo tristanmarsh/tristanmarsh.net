@@ -3,7 +3,7 @@ Contributors: Jeriff Cheng
 Tags: smooth scroll,jquery smooth scroll div,smooth scroll jquery,smooth scroll chrome,smooth scroll firefox,smooth scroll javascript,smooth scroll to anchor,smooth scroll plugin,smooth scroll tutorial,anchor,anchor text
 Donate link: http://www.jeriffcheng.com/donate
 Requires at least: 2.6.5
-Tested up to: 3.9.1
+Tested up to: 4.5
 Stable tag: trunk
 
 == Description ==
@@ -40,6 +40,9 @@ For FAQs and bug report,refer to http://www.jeriffcheng.com/wordpress-plugins/ea
 4. Enter Anchor Name
 
 == Changelog ==
+= 2.1 =
+WordPress 4.5 jQuery fix
+
 = 2.0 =
 Choose to enable Scrolling from One Page to Another or not. This feature is experimental, might cause conflict with some slider plugins, or blank pages. 
 
@@ -87,5 +90,5 @@ Changed : Use wp_enqueue_script function to load the script instead of the defau
 *First Version
 
 == Upgrade Notice ==
-= 2.0 =
-Choose to enable Scrolling from One Page to Another or not. This feature is experimental, might cause conflict with some slider plugins, or blank pages. 
+= 2.1 =
+WordPress 4.5 jQuery fix

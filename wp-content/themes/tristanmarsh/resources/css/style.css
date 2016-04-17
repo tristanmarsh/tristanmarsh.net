@@ -3023,8 +3023,6 @@ img {
     padding-left: 0; }
   .subfooter a {
     color: #fff; }
-  .subfooter .social-connect {
-    margin-top: 2em; }
   .subfooter .fa {
     font-size: 3em;
     display: block;
@@ -3034,6 +3032,11 @@ img {
     opacity: 0.5; }
     .subfooter .fa:hover {
       opacity: 1; }
+  .subfooter .social-connect {
+    margin-top: 2em;
+    display: inline-flex;
+    margin: 0 auto;
+    text-align: center; }
 
 .footer {
   background: #092326; }
