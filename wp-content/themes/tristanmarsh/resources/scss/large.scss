@@ -1,0 +1,10 @@
+// lg Up (greater than 991px)
+@media(min-width:992px) {
+  
+  // Increase max modal-lg width to best show portfolio screenshots
+  .modal-lg {
+    width: 1300px;
+    max-width: 90%;
+  }
+
+}

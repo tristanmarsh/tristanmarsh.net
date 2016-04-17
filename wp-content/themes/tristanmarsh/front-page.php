@@ -148,15 +148,15 @@
                   
                   <div class="row">
                     <div class="col-md-12">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/tristanmarsh-screenshot.jpg" alt="Tristan Marsh Screenshot">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/tristanmarsh/tristanmarsh-screenshot.jpg" alt="Tristan Marsh Screenshot">
                     </div>
 
                     <div class="col-md-6">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/tristanmarsh-screenshot-slider.jpg" alt="Tristan Marsh Screenshot">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/tristanmarsh/tristanmarsh-screenshot-slider.jpg" alt="Tristan Marsh Screenshot">
                     </div>   
                     
                     <div class="col-md-6">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/tristanmarsh-screenshot-skills.jpg" alt="Tristan Marsh Screenshot">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/tristanmarsh/tristanmarsh-screenshot-skills.jpg" alt="Tristan Marsh Screenshot">
                     </div>        
 
                   </div>
@@ -174,7 +174,7 @@
 
         <div class="project col-sm-6 col-md-4">
           <a data-toggle="modal" data-target="#portfolio-modal-dcstrategy" style="background:rgb(149, 126, 94)">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/icons/dc-strategy-logo-white.png" alt="DC Strategy" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy/dc-strategy-logo-white.png" alt="DC Strategy" />
           </a>
           <h3>DC Strategy</h3>
           <p class="lead">Built</p>
@@ -191,15 +191,15 @@
                   
                   <div class="row">
                     <div class="col-md-12">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-screenshot.jpg" alt="DC Strategy Screenshot">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy/dcstrategy-screenshot.jpg" alt="DC Strategy Screenshot">
                     </div>
 
                     <div class="col-md-6">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-dcstrategy-screenshot-search.jpg" alt="DC Strategy Screenshot">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy/dcstrategy-dcstrategy-screenshot-search.jpg" alt="DC Strategy Screenshot">
                     </div>        
 
                     <div class="col-md-6">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy-screenshot-franchisors.jpg" alt="DC Strategy Screenshot">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dcstrategy/dcstrategy-screenshot-franchisors.jpg" alt="DC Strategy Screenshot">
                     </div>
 
                   </div>
@@ -216,8 +216,64 @@
         </div>
 
         <div class="project col-sm-6 col-md-4">
+          <a data-toggle="modal" data-target="#portfolio-modal-dash" style="background:rgb(118, 170, 219)">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dash/dash-logo.svg" alt="Dash" />
+          </a>
+          <h3>Dash</h3>
+          <p class="lead">Designed & Built</p>
+          <!-- <p>Things were involved</p> -->
+
+          <div class="modal fade" id="portfolio-modal-dash" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-dash">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="portfolio-modal-dash">Dash</h4>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="row">
+
+                    <div class="col-md-12">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dash/dash-screenshot-home.jpg" alt="Dash Screenshot">
+                    </div>
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dash/dash-screenshot-properties.jpg" alt="Dash Screenshot">
+                    </div>        
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dash/dash-screenshot-property-view.jpg" alt="Dash Screenshot">
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dash/dash-screenshot-profile.jpg" alt="Dash Screenshot">
+                    </div>    
+                                    
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dash/dash-screenshot-tenants.jpg" alt="Dash Screenshot">
+                    </div>
+
+                    <div class="col-md-12">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/dash/dash-screenshot-login.jpg" alt="Dash Screenshot">
+                    </div>
+
+                  </div>
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-alert pull-left" data-dismiss="modal">Close</button>
+                  <!-- <a class="btn btn-primary button button-action" target="_blank" href="http://dashblog.com/">See Project</a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="project col-sm-6 col-md-4">
           <a data-toggle="modal" data-target="#portfolio-modal-bygones" style="background:rgb(249,211,193)">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/icons/bygones-text-logo.svg" alt="Bygones" />
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/bygones/bygones-text-logo.svg" alt="Bygones" />
           </a>
           <h3>Bygones</h3>
           <p class="lead">Designed & Built</p>
@@ -234,15 +290,15 @@
                   
                   <div class="row">
                     <div class="col-md-12">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/bygones-screenshot.jpg" alt="Bygones Screenshot">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/bygones/bygones-screenshot.jpg" alt="Bygones Screenshot">
                     </div>
 
                     <div class="col-md-6">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/bygones-screenshot-post.jpg" alt="Bygones Screenshot">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/bygones/bygones-screenshot-post.jpg" alt="Bygones Screenshot">
                     </div>        
 
                     <div class="col-md-6">
-                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/bygones-screenshot-about.jpg" alt="Bygones Screenshot">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/bygones/bygones-screenshot-about.jpg" alt="Bygones Screenshot">
                     </div>
 
                   </div>
@@ -258,33 +314,100 @@
 
         </div>
 
-        
+        <div class="project col-sm-6 col-md-4">
+          <a data-toggle="modal" data-target="#portfolio-modal-jemmaharrisonstylist" style="background:rgb(229, 102, 64)">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/jemmaharrisonstylist/jemma-harrison-stylist-logo.svg" alt="Jemma Harrison Stylist Logo" />
+          </a>
+          <h3>Jemma Harrison Stylist</h3>
+          <p class="lead">Designed & Built</p>
 
+          <div class="modal fade" id="portfolio-modal-jemmaharrisonstylist" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-jemmaharrisonstylist">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="portfolio-modal-jemmaharrisonstylist">Jemma Harrison Stylist</h4>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="row">
 
+                    <div class="col-md-12">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/jemmaharrisonstylist/jemma-harrison-stylist-screenshot-home.jpg" alt="Jemma Harrison Stylist Homepage Screenshot">
+                    </div>
 
-<!--         <div class="col-sm-6 col-md-4">
-          <img src="#" alt="Home For Tomorrow" />
-          <h3>Home For Tomorrow</h3>
-          <p class="lead">Built it</p>
-          <p>Things were involved</p>
+                    <p>Things were involved</p>
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/jemmaharrisonstylist/jemma-harrison-stylist-screenshot-about.jpg" alt="Jemma Harrison Stylist About Screenshot">
+                    </div>        
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/jemmaharrisonstylist/jemma-harrison-stylist-screenshot-contact.jpg" alt="Jemma Harrison Stylist Contact Screenshot">
+                    </div>        
+
+                    <div class="col-md-12">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/jemmaharrisonstylist/jemma-harrison-stylist-screenshot-portfolio.jpg" alt="Jemma Harrison Stylist Portfolio Screenshot">
+                    </div>
+
+                  </div>
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-alert pull-left" data-dismiss="modal">Close</button>
+                  <a class="btn btn-primary button button-action" target="_blank" href="http://jemmaharrisonstylist.com.s203161.gridserver.com/">See Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
-        <div class="col-sm-6 col-md-4">
-          <img src="#" alt="Sheoak" />
-          <h3>Sheoak</h3>
-          <p class="lead">Built it</p>
-          <p>Things were involved</p>
+        <div class="project col-sm-6 col-md-4">
+          <a data-toggle="modal" data-target="#portfolio-modal-hopefortomorrow" style="background:rgb(69, 69, 69)">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/hopefortomorrow/hope-for-tomorrow-logo.svg" alt="Hope For Tomorrow Logo" />
+          </a>
+          <h3>Hope For Tomorrow</h3>
+          <p class="lead">Configured</p>
+
+          <div class="modal fade" id="portfolio-modal-hopefortomorrow" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-hopefortomorrow">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="portfolio-modal-hopefortomorrow">Hope For Tomorrow</h4>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="row">
+
+                    <div class="col-md-12">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/hopefortomorrow/hope-for-tomorrow-screenshot-home.jpg" alt="Hope For Tomorrow Homepage Screenshot">
+                    </div>
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/hopefortomorrow/hope-for-tomorrow-screenshot-about.jpg" alt="Hope For Tomorrow About Screenshot">
+                    </div>        
+
+                    <div class="col-md-6">
+                      <img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/images/projects/hopefortomorrow/hope-for-tomorrow-screenshot-page.jpg" alt="Hope For Tomorrow Page Screenshot">
+                    </div>        
+
+
+                  </div>
+                
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-alert pull-left" data-dismiss="modal">Close</button>
+                  <a class="btn btn-primary button button-action" target="_blank" href="http://hopefortomorrow.info/">See Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
-        <div class="col-sm-6 col-md-4">
-          <img src="#" alt="Jemma Harrison" />
-          <h3>This Website</h3>
-          <p class="lead">Designed & Built it</p>
-          <p>Things were involved</p>
-        </div> -->
-    
         <!-- Eventually use a single modal element which pulls in post content via ajax -->
-
 
       </div>
     </div>

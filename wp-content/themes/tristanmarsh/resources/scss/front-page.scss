@@ -336,7 +336,6 @@
       margin-bottom:0px;
     }
 
-
     .project> a {
       display:block;
       position:relative;
@@ -345,6 +344,9 @@
       background:green;
       margin-bottom:40px;
       overflow:hidden;
+      transition:filter 400ms ease;
+      filter:brightness(0.95);
+      &:hover {filter:brightness(1.05)}
     }
 
    .project> a:hover {
@@ -365,6 +367,7 @@
       max-height:150px;
       margin:0 auto;
       transition:transform 400ms ease;
+      pointer-events: none
     }
 
     .project .modal {

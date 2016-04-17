@@ -83,7 +83,9 @@
           <p>Copyright © 2016 Tristan Marsh</p>
         </div>
         <div class="col-sm-2">
-          <img src="<?php echo get_stylesheet_directory_uri() . '/resources/images/logo/logo-light.svg' ?>" alt="TM" width="60px" class="logo" />
+          <a href="#section-hero">
+            <img src="<?php echo get_stylesheet_directory_uri() . '/resources/images/logo/logo-light.svg' ?>" alt="TM" width="60px" class="logo" />
+          </a>
         </div>
         <div class="col-sm-5 credits">
           <p><a href="#section-hero">designed and built by me</a></p>
