@@ -1,5 +1,5 @@
 .head {
- 
+
   position:fixed;
   top:0;
   width:100%;
@@ -12,26 +12,26 @@
   animation-duration:2s;
   animation-delay:0;
   animation-iteration-count:1;
- 
+
   body.admin-bar & {
     top:32px;
   }
 
   .container {
-    position:relative;    
+    position:relative;
   }
-  
+
   a {
     text-decoration:none;
     transition:all 200ms ease;
     color:rgba(255, 255, 255, 0.5);
   }
-    
+
   a:hover {
     color:rgba(255, 255, 255, 1);
   }
-    
-  
+
+
   .brand {
     transition:all 400ms ease;
 
@@ -64,7 +64,7 @@
     }
 
   }
-  
+
   nav {
     position:absolute;
     top:50%;
@@ -74,19 +74,19 @@
     font-size:1.3em;
     font-family:"proxima-nova-soft", "Proxima Nova Soft", sans-serif;
     float:right;
-    
+
     ul {
       list-style:none;
       margin-bottom:0;
       right:0;
     }
-    
+
     li {
       display:table-cell;
       vertical-align:middle;
       float:left;
     }
-    
+
     // CTA Contact Button
     li:last-child {
       border-radius:4px;
@@ -107,13 +107,13 @@
 
 
   }
-  
+
 }
 
 
 .head.scrolled {
 
-  background:rgba(9, 35, 38, 1)!important;
+  background:rgba(9, 35, 38, 0.8)!important;
   color:rgba(255,255,255,1)!important;
 
   a {
@@ -127,25 +127,25 @@
   .brand {
     padding:10px 30px;
   }
-  
+
   .logo {
     transform:scale(66%);
     height:40px;
     width:40px;
   }
-  
+
   span p {
     transform:scale(0);
     line-height:0;
   }
-  
+
   nav {
-    
+
     a {
       padding:10px 40px;
       color:inherit;
     }
-    
+
     a:hover {
       color:rgba(137, 213, 253, 1);
     }
@@ -160,8 +160,7 @@
       background:#35da5b;
     }
 
-    
+
   }
-  
+
 }
- 
