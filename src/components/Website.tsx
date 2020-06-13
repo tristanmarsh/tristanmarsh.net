@@ -1,6 +1,6 @@
-import React from "react"
-
 import "../style/style.scss"
+
+import React from "react"
 import { useScrollPosition } from "../hooks/useScrollPosition"
 
 export const Website = () => {

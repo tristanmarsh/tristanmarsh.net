@@ -1,5 +1,5 @@
+import { LogRocketInit } from "../services/LogRocket"
 import React from "react"
-
 import SEO from "../components/seo"
 import { Website } from "../components/Website"
 
@@ -11,5 +11,7 @@ const IndexPage = () => (
     {/* </Layout> */}
   </div>
 )
+
+LogRocketInit()
 
 export default IndexPage
